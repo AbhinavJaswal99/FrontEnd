@@ -1,0 +1,19 @@
+<p>
+  Login
+</p>
+<div>
+  <label>Username   
+    <input type="textBox" [(ngModel)]="register.Email" placeholder="Username">
+  </label>
+  <br>
+  <label>Password
+    <input type="textBox" [(ngModel)]="register.Password" type="password" placeholder="Password">
+  </label>
+  <br>
+  <br>
+  <!-- <button  (click) ="LoginForm()">LOGIN</button>&nbsp; -->
+  <button  (click) ="OnSubmit()">LOGIN</button>&nbsp;
+  <button (click) = "NavToRegister()" >New Register</button>
+
+
+</div>

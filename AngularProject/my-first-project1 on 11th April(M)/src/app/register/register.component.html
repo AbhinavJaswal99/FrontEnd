@@ -1,0 +1,23 @@
+<p>
+  Register
+</p>
+<div>
+  <label>Username  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+    <input type="textBox"  [(ngModel)]="register.Email"  placeholder="Email">
+  </label>
+  <br>
+  <label>Password  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+    <input type="textBox" [(ngModel)]="register.Password" type="password" placeholder="Password">
+  </label>
+  <br>
+  <label>Confirm Password  &nbsp; 
+    <input type="textBox" [(ngModel)]="register.ConfirmPassword" type="password" placeholder="ConfirmPassword">
+  </label>
+  
+  <br>
+  <br>
+  <button (click) = "NavToLogin()">Back to LOGIN</button>&nbsp;
+  <button (click) = "RegisterModel()" >Register</button>
+
+
+</div>
